@@ -1,6 +1,11 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+# MY GEMS
+group :development do
+  gem "rails_live_reload"
+end
+
 ruby "3.1.4"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
@@ -63,4 +68,3 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-
